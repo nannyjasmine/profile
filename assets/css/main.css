@@ -2214,12 +2214,11 @@ input, select, textarea {
 	background: #fff;
 	padding: 1rem;
 	box-shadow: 0 0.1rem .4rem rgba(0,0,0,0.2);
-	text-align: center;
+	text-align: center;		
   }
 
 .polaroid > img {
 	max-width: 100%;
-	height: auto;
 }
 
   .item:nth-of-type(3n+1) {
@@ -2269,7 +2268,8 @@ input, select, textarea {
 	  display: block;
 	  margin-top: 5%;	  
 	  text-decoration: none;
-	  font-size: 2em;	  	  
+	  font-size: 2em;	  	
+	  font-family: 'Elsie Swash Caps', sans-serif;  
   }
   a,
 a:link,

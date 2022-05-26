@@ -20,3 +20,7 @@
 - [] bottom of gallery (back to top)
 - [] after website is posted add to forum where it will return to url
 - [] after contact submission extra attributes don't seem to work https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campaign=submission%20page (search autoresponse)
+- [] website icon
+- [x] website title
+- [] make taller images smaller to fit screen size
+- [] fix button font
