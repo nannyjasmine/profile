@@ -2208,20 +2208,27 @@ input, select, textarea {
 
 .looking-for-work {
 	font-size: .8em;
+	line-height: 120%;
 }
 
 .polaroid {
 	background: #fff;
 	padding: 1rem;
 	box-shadow: 0 0.1rem .4rem rgba(0,0,0,0.2);
-	text-align: center;		
+	text-align: center;	
+	margin: auto;	
   }
 
 .polaroid > img {
 	max-width: 100%;
 }
 
-  .item:nth-of-type(3n+1) {
+  .item {
+	  margin: auto;	  
+	  
+  }
+
+  .item:nth-of-type(3n) {
 	transform: scale(0.8, 0.8) rotate(2deg);
 	transition: all 0.35s;
   }
@@ -2277,4 +2284,27 @@ a:visited,
 a:hover,
 a:active{
     text-decoration: none;
+}
+
+.caption {
+	font-size: 20pt;
+}
+
+.cake {
+	float: right;
+	width: 10em;
+}
+
+.signature {
+	width: 15em;	
+}
+
+.about__pic {
+	width: 8em;
+}
+
+@media screen and (min-width: 1200px) {
+	.item {
+		width: 50%;
+	}
 }
