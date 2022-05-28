@@ -2304,9 +2304,16 @@ a:active{
 	}
 }
 
-li li {
+li ol {
+	list-style: numeric;
 	margin-bottom: 0;
-	margin-left: 2em;
+	margin-left: 1.2em;
+	padding-bottom: 1em;
+	font-size: .85em;
+}
+
+.alpha {
+	list-style: lower-alpha;
 }
 
 #about .p {	
@@ -2341,10 +2348,6 @@ li li {
 	font-size: .9em;
 }
 
-li li:before {			
-	font-size: .9em;
-}
-
 .career-list > li {
 	list-style: none;
 }
@@ -2352,8 +2355,4 @@ li li:before {
 a {
 	color: #ef4e8f;
 	text-decoration: underline;
-}
-
-li ul {
-	padding-bottom: 1em;
 }
