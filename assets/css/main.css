@@ -2304,8 +2304,7 @@ a:active{
 	}
 }
 
-li ol {
-	list-style: numeric;
+li ul {	
 	margin-bottom: 0;
 	margin-left: 1.2em;
 	padding-bottom: 1em;
