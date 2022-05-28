@@ -1435,8 +1435,8 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
-		margin-bottom: 2em;
+	p, ol, dl, table, blockquote, form {
+		margin-bottom: 1em;
 	}
 
 /* Table */
@@ -2290,9 +2290,9 @@ a:active{
 	font-size: 20pt;
 }
 
-.cake {
-	
-	width: 10em;
+.cake {	
+	width: 15em;
+	display: block;
 }
 
 .signature {
@@ -2308,8 +2308,65 @@ a:active{
 	margin: auto;
 }
 
+.name {
+	color: #ff94ae;
+}
+
 @media screen and (min-width: 1200px) {
 	.item {
 		width: 50%;
 	}
+}
+
+ul {
+	margin-bottom: 0;
+	margin-left: 1em;
+}
+
+#about .p {	
+	margin-bottom: 0;
+}
+
+.permission {
+	font-size: .8em;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+#work header {
+	margin-bottom: 0;
+}
+
+#about h2 {
+	font-size: 2.25rem;
+	margin-top: 2em;
+	margin-bottom: .25em;
+	color: #ff94ae
+}
+
+#about {
+	line-height: 140%;
+}
+
+.career-list > li:before {
+	content: '🌸';
+	margin-left: -40px; 
+	margin-right: 10px; 
+	font-size: .9em;
+}
+
+li li:before {
+	
+	margin-left: -40px; 
+	margin-right: 10px; 
+	font-size: .9em;
+}
+
+.career-list > li {
+	list-style: none;
+}
+
+a {
+	color: #ef4e8f;
+	text-decoration: underline;
 }
