@@ -2303,6 +2303,11 @@ a:active{
 	width: 8em;
 }
 
+.cat {
+	width: 100%;
+	margin: auto;
+}
+
 @media screen and (min-width: 1200px) {
 	.item {
 		width: 50%;

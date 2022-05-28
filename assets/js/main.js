@@ -73,7 +73,7 @@
 						$link = $nav_links.first();
 
 					}
-
+				
 				// Deactivate all panels except this one.
 					$panels.not($panel)
 						.addClass('inactive')
