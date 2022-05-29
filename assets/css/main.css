@@ -2106,7 +2106,12 @@ input, select, textarea {
 
 						#main > .panel.intro header {
 							padding: 4em;
-							text-align: center;
+							/* text-align: center; */
+							
+						}
+
+						#main > .panel.intro p {
+							margin: 0;
 						}
 
 				}
