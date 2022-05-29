@@ -1329,7 +1329,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: 'Elsie Swash Caps', sans-serif;
 		font-weight: 300;
-		color: #777777;
+		color: #626262;
 		font-size: 20pt;
 		line-height: 1.75em;
 	}
@@ -2193,7 +2193,7 @@ input, select, textarea {
 }
 
 .looking-for-work {
-	font-size: .8em;
+	font-size: .9em;
 	line-height: 120%;
 }
 
@@ -2277,8 +2277,26 @@ a:active{
 }
 
 .cake {	
-	width: 15em;
+	width: 13em;	
+	height: 13em;
 	display: block;
+	border-radius: 100%;
+	/* margin-bottom: 1em; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	/* float: right;	 */
+	/* margin-right: 1em;
+	padding-left: 1em; */
+}
+
+@media only screen and (min-width: 1200px) {
+	.cake {
+		float: right;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
 }
 
 .signature {
@@ -2331,7 +2349,7 @@ li ul {
 
 #about h2 {
 	font-size: 2.25rem;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: .75em;
 	color: #ff94ae
 }
